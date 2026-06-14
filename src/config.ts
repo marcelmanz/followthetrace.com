@@ -1,3 +1,5 @@
+const USERNAME = "marcelmanz";
+
 export const SITE_CONFIG = {
   title: "Unexpected cool pointer",
   description: "This is my personal blog where I write about things I like.",
@@ -5,20 +7,20 @@ export const SITE_CONFIG = {
 
   author: {
     name: "Marcel Arie",
-    username: "themarcel",
+    username: USERNAME,
     email: "me@marcel.cool",
     birthDate: new Date("1995-09-27"),
     programmingStartDate: new Date("2020-10-10"),
   },
 
   github: {
-    username: "themarcel",
+    username: USERNAME,
     repo: "followthetrace.com",
     repoId: "MDEwOlJlcG9zaXRvcnkyODU1OTY4MzE",
   },
 
   codeberg: {
-    username: "themarcel",
+    username: USERNAME,
   },
 
   giscus: {
